@@ -53,3 +53,16 @@ def build_speechlet_response(title, output, reprompt_text, should_end_session):
 
 def get_help_response(helpText):
 	return returnSpeech(helpText, False)
+
+def handle_session_end_request(text):
+	return {
+	"version": "1.0",
+	"sessionAttributes": {},
+	"response": {
+	"outputSpeech": {
+	"type": "PlainText",
+	"text": text
+		},
+		"shouldEndSession": True
+	  }
+	}
