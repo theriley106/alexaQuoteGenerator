@@ -17,7 +17,7 @@ def devInfo():
 
 def get_welcome_response(skillName, initialSpeech, repeatSpeech):
 	session_attributes = {}
-	card_title = "WallStreetBets"
+	card_title = skillName
 	speech_output = initialSpeech
 	reprompt_text = repeatSpeech
 	should_end_session = False
@@ -54,7 +54,7 @@ def build_speechlet_response(title, output, reprompt_text, should_end_session):
 def get_help_response(helpText):
 	return returnSpeech(helpText, False)
 
-def handle_session_end_request(text):
+def handle_session_end_request(text="Exiting now..."):
 	return {
 	"version": "1.0",
 	"sessionAttributes": {},
