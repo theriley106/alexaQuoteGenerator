@@ -7,18 +7,18 @@ import os.path
 popular_choice = ['motivational', 'life', 'positive', 'friendship', 'success', 'happiness', 'love']
 
 def writeQuoteList(author,quoteList):
-    f = open('{}.txt'.format(author),'w')
+    f = open('/tmp/{}.txt'.format(author),'w')
     f.write('\n'.join(quoteList))
     f.close()
 
 def readData(author):
-    return open('{}.txt'.format(author)).read().split('\n')
+    return open('/tmp/{}.txt'.format(author)).read().split('\n')
 
 
 def get_author_quotes(author, forceNew=False):
     quotes = []
     author = str(author.strip()).replace(' ', '_')
-    if os.path.exists('{}.txt'.format(author)) == False or forceNew == True:
+    if os.path.exists('/tmp/{}.txt'.format(author)) == False or forceNew == True:
         url = "http://www.brainyquote.com/quotes/authors/{}".format(author)
         response = requests.get(url)
         soup = BeautifulSoup(response.text, "lxml")
@@ -28,6 +28,7 @@ def get_author_quotes(author, forceNew=False):
             writeQuoteList(author,quotes)
     else:
         quotes = readData(author)
+    print("Picking a random choice out of: {}".format(quotes))
     return random.choice(quotes)
 
 
