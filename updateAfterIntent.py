@@ -27,7 +27,8 @@ def updateAppInfo():
 	res = requests.get('https://raw.githubusercontent.com/theriley106/alexaQuoteGenerator/master/appInfo.json')
 	data = res.json()
 	with open('/tmp/appInfo.json', 'w') as f:
-    	json.dump(data, f)
-    return json.load(open('/tmp/appInfo.json'))
+		json.dump(data, f)
+	return json.load(open('/tmp/appInfo.json'))
+	
 def readAppInfo():
 	return json.load(open('/tmp/appInfo.json'))
