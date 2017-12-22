@@ -8,7 +8,7 @@ import time
 
 popular_choice = ['motivational', 'life', 'positive', 'friendship', 'success', 'happiness', 'love']
 
-def fileOlderThan(fileName, day=0):
+def fileOlderThan(fileName, day=1):
     current_time = time.time()
     creation_time = os.path.getctime(fileName)
     if (current_time - creation_time) // (24 * 3600) >= day:
@@ -51,6 +51,7 @@ def get_author_quotes(author, forceNew=False):
             if newData != None:
                 if len(newData) > len(quotes):
                     quotes = newData
+                    writeQuoteList(author,quotes)
             os.system("touch /tmp/{}.txt".format(author))
     print("Picking a random choice out of: {}".format(quotes))
     return random.choice(quotes)
