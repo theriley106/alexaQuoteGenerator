@@ -31,4 +31,7 @@ def updateAppInfo():
 	return json.load(open('/tmp/appInfo.json'))
 	
 def readAppInfo():
-	return json.load(open('/tmp/appInfo.json'))
+	if os.path.exists('/tmp/appInfo.json') == False:
+		return updateAppInfo()
+	else:
+		return json.load(open('/tmp/appInfo.json'))
