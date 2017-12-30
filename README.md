@@ -28,5 +28,6 @@ A python program to quickly generate Alexa Quote skills
 * [Barack Obama Quotes](https://www.amazon.com/dp/B078MFJ4NG/)
 * [Arnold Schwarzeneggar Quotes](https://www.amazon.com/dp/B078MGDXLC/)
 * [Avril Lavigne Quotes](https://www.amazon.com/dp/B078MGP7Q1/)
+* [Marshawn Lynch Quotes](https://www.amazon.com/dp/B078NK2PK7/)
 
 
