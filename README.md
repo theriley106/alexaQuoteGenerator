@@ -26,5 +26,6 @@ A python program to quickly generate Alexa Quote skills
 * [Kim Kardashian Quotes](https://www.amazon.com/dp/B078M54RRD/)
 * [Khloe Kardashian Quotes](https://www.amazon.com/dp/B078MCJQND/)
 * [Barack Obama Quotes](https://www.amazon.com/dp/B078MFJ4NG/)
+* [Arnold Schwarzeneggar Quotes](https://www.amazon.com/dp/B078MGDXLC/)
 
 
