@@ -9,4 +9,7 @@ A python program to quickly generate Alexa Quote skills
 [Kanye West Quotes](https://www.amazon.com/dp/B078LXJ3WP/)
 [Zara Larsson Quotes](https://www.amazon.com/dp/B078MGGDSB/)
 [Lil Wayne Quotes](https://www.amazon.com/dp/B078MM4FVZ/)
+[Chris Christie Quotes](https://www.amazon.com/dp/B078MN9BKQ/)
+
+
 
