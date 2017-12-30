@@ -20,5 +20,6 @@ A python program to quickly generate Alexa Quote skills
 * [Bill Nye Quotes](https://www.amazon.com/dp/B078LN1BXC/)
 * [Terry Crews Quotes](https://www.amazon.com/dp/B078LN1NVN/)
 * [Taylor Swift Quotes](https://www.amazon.com/dp/B078LN4W99/)
+* [Steve Jobs Quotes](https://www.amazon.com/dp/B078LN7WQQ/)
 
 
