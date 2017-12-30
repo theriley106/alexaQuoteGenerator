@@ -6,5 +6,5 @@ A python program to quickly generate Alexa Quote skills
 [Jeff Bezos Quotes](https://www.amazon.com/dp/B078KN3Z4V/)
 [Donald Trump Quotes](https://www.amazon.com/dp/B078JV7NSR/)
 [Oprah Winfrey Quotes](https://www.amazon.com/dp/B078LMHG8Z/)
-
+[Kanye West Quotes](https://www.amazon.com/dp/B078LXJ3WP/)
 
