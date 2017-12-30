@@ -24,4 +24,6 @@ A python program to quickly generate Alexa Quote skills
 * [Bob Marley Quotes](https://www.amazon.com/dp/B078LNFB6K/)
 * [Mitch Hedberg Quotes](https://www.amazon.com/dp/B078LNFGYC/)
 * [Kim Kardashian Quotes](https://www.amazon.com/dp/B078M54RRD/)
+* [Khloe Kardashian Quotes](https://www.amazon.com/dp/B078MCJQND/)
+
 
