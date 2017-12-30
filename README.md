@@ -12,6 +12,6 @@ A python program to quickly generate Alexa Quote skills
 [Lil Wayne Quotes](https://www.amazon.com/dp/B078MM4FVZ/)
 [Bill Gates Quotes](https://www.amazon.com/dp/B078JKTP43/)
 [Bernie Sanders Quotes](https://www.amazon.com/dp/B078KHX4KF/)
-
+[Hillary Clinton Quotes](https://www.amazon.com/dp/B078JRZ9YV/)
 
 
