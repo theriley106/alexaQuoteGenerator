@@ -8,3 +8,5 @@ A python program to quickly generate Alexa Quote skills
 [Oprah Winfrey Quotes](https://www.amazon.com/dp/B078LMHG8Z/)
 [Kanye West Quotes](https://www.amazon.com/dp/B078LXJ3WP/)
 [Zara Larsson Quotes](https://www.amazon.com/dp/B078MGGDSB/)
+[Lil Wayne Quotes](https://www.amazon.com/dp/B078MM4FVZ/)
+
