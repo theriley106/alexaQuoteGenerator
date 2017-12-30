@@ -22,6 +22,6 @@ A python program to quickly generate Alexa Quote skills
 * [Taylor Swift Quotes](https://www.amazon.com/dp/B078LN4W99/)
 * [Steve Jobs Quotes](https://www.amazon.com/dp/B078LN7WQQ/)
 * [Bob Marley Quotes](https://www.amazon.com/dp/B078LNFB6K/)
-
+* [Mitch Hedberg Quotes](https://www.amazon.com/dp/B078LNFGYC/)
 
 
