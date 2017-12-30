@@ -15,5 +15,4 @@ A python program to quickly generate Alexa Quote skills
 [Hillary Clinton Quotes](https://www.amazon.com/dp/B078JRZ9YV/)
 [Elon Musk Quotes](https://www.amazon.com/dp/B078HP6J8K/)
 [Marilyn Manson Quotes](https://www.amazon.com/dp/B078LJ9ZYL/)
-
-
+[Bill Nye Quotes](https://www.amazon.com/dp/B078LN1BXC/)
