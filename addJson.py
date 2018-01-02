@@ -20,3 +20,6 @@ data = readJSON(jsonFile)
 data[skillID] = person.title()
 
 updateJSON(data, jsonFile)
+
+if '--force' in str(sys.argv):
+	os.system('git add {} && git commit -m "Added {}" && git push origin master'.format(jsonFile, person))
