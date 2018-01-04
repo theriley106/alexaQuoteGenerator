@@ -3,7 +3,6 @@ import json
 import os
 
 
-
 def updateJSON(dict, jsonFile):
 	with open(jsonFile, 'w') as outfile:
 		json.dump(data, outfile)
