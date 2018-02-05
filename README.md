@@ -43,3 +43,4 @@ A python program to quickly generate Alexa Quote skills
 * [Demi Lovato Quotes](https://www.amazon.com/dp/B078T6C6TJ/)
 * [Justin Bieber Quotes](https://www.amazon.com/dp/B078T5XTRT/)
 * [Gabe Newell Quotes](https://www.amazon.com/dp/B078T5T894/)
+* [Selena Gomez Quotes](https://www.amazon.com/dp/B078T5CJX6/)
