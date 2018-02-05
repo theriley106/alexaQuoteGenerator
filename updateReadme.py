@@ -1,6 +1,7 @@
 import requests
 import bs4
 import re
+import os
 allSkills = []
 
 def grabSite(url):
@@ -13,6 +14,9 @@ def extractInfoFromPage(page):
 		info['title'] = i.select(".s-access-title")[0].getText()
 		dp = str(i).partition("uotes/dp/")[2].partition("/")[0]
 		info['url'] = "https://www.amazon.com/dp/{}/".format(dp)
+		if checkInReadme(dp) == False:
+			os.system('echo "* [{}]({})\n" >> README.md'.format(info['title'], info['url']))
+			raw_input("Added: ")
 
 def checkInReadme(string):
 	return string in str(open("README.md").read())
