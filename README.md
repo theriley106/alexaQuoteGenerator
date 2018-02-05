@@ -34,3 +34,4 @@ A python program to quickly generate Alexa Quote skills
 
 * [Phil Mcgraw Quotes](https://www.amazon.com/dp/B078TV2BL8/)
 * [Mark Wahlberg Quotes](https://www.amazon.com/dp/B078TTM1SB/)
+* [Ben Stiller Quotes](https://www.amazon.com/dp/B078TT94ZN/)
