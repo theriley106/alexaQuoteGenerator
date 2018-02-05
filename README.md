@@ -48,3 +48,4 @@ A python program to quickly generate Alexa Quote skills
 * [Ted Cruz Quotes](https://www.amazon.com/dp/B078T3SD7R/)
 * [Paulo Coelho Quotes](https://www.amazon.com/dp/B078T3RQV1/)
 * [Bill Clinton Quotes](https://www.amazon.com/dp/B078T31PWW/)
+* [Miley Cyrus Quotes](https://www.amazon.com/dp/B078T2NC7V/)
