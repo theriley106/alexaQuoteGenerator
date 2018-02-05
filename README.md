@@ -40,3 +40,4 @@ A python program to quickly generate Alexa Quote skills
 * [Tom Cruise Quotes](https://www.amazon.com/dp/B078TPYH81/)
 * [Adam Sandler Quotes](https://www.amazon.com/dp/B078T6MKXG/)
 * [Chris Rock Quotes](https://www.amazon.com/dp/B078T6L6KY/)
+* [Demi Lovato Quotes](https://www.amazon.com/dp/B078T6C6TJ/)
