@@ -39,3 +39,4 @@ A python program to quickly generate Alexa Quote skills
 * [Larry King Quotes](https://www.amazon.com/dp/B078TRTBHR/)
 * [Larry Page Quotes](https://www.amazon.com/dp/B078TRNBY6/)
 * [Tom Cruise Quotes](https://www.amazon.com/dp/B078TPYH81/)
+* [Adam Sandler Quotes](https://www.amazon.com/dp/B078T6MKXG/)
