@@ -37,3 +37,4 @@ A python program to quickly generate Alexa Quote skills
 * [Ben Stiller Quotes](https://www.amazon.com/dp/B078TT94ZN/)
 * [Jackie Chan Quotes](https://www.amazon.com/dp/B078TSVQ1S/)
 * [Larry King Quotes](https://www.amazon.com/dp/B078TRTBHR/)
+* [Larry Page Quotes](https://www.amazon.com/dp/B078TRNBY6/)
