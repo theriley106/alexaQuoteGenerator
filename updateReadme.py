@@ -14,7 +14,7 @@ def extractInfoFromPage(page):
 		dp = str(i).partition("uotes/dp/")[2].partition("/")[0]
 		info['url'] = "https://www.amazon.com/dp/{}/".format(dp)
 
-def checkInReadme():
+def checkInReadme(string):
 	return
 
 def addAllSkillsFromPage(page):
