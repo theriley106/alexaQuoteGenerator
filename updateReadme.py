@@ -1,5 +1,6 @@
 import requests
 import bs4
+import re
 allSkills = {}
 
 def grabSite(url):
@@ -7,7 +8,12 @@ def grabSite(url):
 	return requests.get(url, headers=headers)
 
 def extractInfoFromPage(page):
-	print page.select(".a-fixed-left-grid-inner")
+	for i in page.select(".a-fixed-left-grid-inner"):
+		print i.select(".s-access-title")[0].getText()
+		print str(i).partition("uotes/dp/")[2].partition("/")[0]
+
+def checkInReadme():
+	return
 
 def addAllSkillsFromPage(page):
 	return
@@ -16,6 +22,7 @@ def getTotalSkillCount(url):
 	res = grabSite(url)
 	page = bs4.BeautifulSoup(res.text, 'lxml')
 	text = page.select("#s-result-count")[0].getText()
+	extractInfoFromPage(page)
 	return int(str(text).partition(" of ")[2].partition(" ")[0])
 
 if __name__ == '__main__':
