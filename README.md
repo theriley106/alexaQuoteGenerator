@@ -41,3 +41,4 @@ A python program to quickly generate Alexa Quote skills
 * [Adam Sandler Quotes](https://www.amazon.com/dp/B078T6MKXG/)
 * [Chris Rock Quotes](https://www.amazon.com/dp/B078T6L6KY/)
 * [Demi Lovato Quotes](https://www.amazon.com/dp/B078T6C6TJ/)
+* [Justin Bieber Quotes](https://www.amazon.com/dp/B078T5XTRT/)
