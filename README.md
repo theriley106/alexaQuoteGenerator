@@ -46,3 +46,4 @@ A python program to quickly generate Alexa Quote skills
 * [Selena Gomez Quotes](https://www.amazon.com/dp/B078T5CJX6/)
 * [Usain Bolt Quotes](https://www.amazon.com/dp/B078T41PTZ/)
 * [Ted Cruz Quotes](https://www.amazon.com/dp/B078T3SD7R/)
+* [Paulo Coelho Quotes](https://www.amazon.com/dp/B078T3RQV1/)
