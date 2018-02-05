@@ -15,7 +15,7 @@ def extractInfoFromPage(page):
 		info['url'] = "https://www.amazon.com/dp/{}/".format(dp)
 
 def checkInReadme(string):
-	return
+	return string in str(open("README.md").read())
 
 def addAllSkillsFromPage(page):
 	return
