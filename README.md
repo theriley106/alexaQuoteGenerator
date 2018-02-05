@@ -50,3 +50,4 @@ A python program to quickly generate Alexa Quote skills
 * [Bill Clinton Quotes](https://www.amazon.com/dp/B078T31PWW/)
 * [Miley Cyrus Quotes](https://www.amazon.com/dp/B078T2NC7V/)
 * [Tonya Harding Quotes](https://www.amazon.com/dp/B078T291BH/)
+* [Lady Gaga Quotes](https://www.amazon.com/dp/B078TMR2ZH/)
