@@ -1,16 +1,18 @@
 import requests
 import bs4
 import re
-allSkills = {}
+allSkills = []
 
 def grabSite(url):
 	headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 	return requests.get(url, headers=headers)
 
 def extractInfoFromPage(page):
+	info = {}
 	for i in page.select(".a-fixed-left-grid-inner"):
-		print i.select(".s-access-title")[0].getText()
-		print str(i).partition("uotes/dp/")[2].partition("/")[0]
+		info['title'] = i.select(".s-access-title")[0].getText()
+		dp = str(i).partition("uotes/dp/")[2].partition("/")[0]
+		info['url'] = "https://www.amazon.com/dp/{}/".format(dp)
 
 def checkInReadme():
 	return
