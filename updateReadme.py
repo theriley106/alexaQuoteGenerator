@@ -16,7 +16,9 @@ def extractInfoFromPage(page):
 		info['url'] = "https://www.amazon.com/dp/{}/".format(dp)
 		if checkInReadme(dp) == False:
 			os.system('echo "* [{}]({})" >> README.md'.format(info['title'], info['url']))
-			raw_input("Added: ")
+			os.system("git add .")
+			os.system("git commit -m 'Added {}'".format(info['title']))
+			os.system("git push origin master")
 
 def checkInReadme(string):
 	return string in str(open("README.md").read())

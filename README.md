@@ -32,3 +32,4 @@ A python program to quickly generate Alexa Quote skills
 * [Vin Diesel Quotes](https://www.amazon.com/dp/B078V5987Q/)
 * [Ben Shapiro Quotes](https://www.amazon.com/dp/B078TWY848/)
 
+* [Phil Mcgraw Quotes](https://www.amazon.com/dp/B078TV2BL8/)
