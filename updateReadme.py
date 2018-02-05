@@ -15,7 +15,7 @@ def extractInfoFromPage(page):
 		dp = str(i).partition("uotes/dp/")[2].partition("/")[0]
 		info['url'] = "https://www.amazon.com/dp/{}/".format(dp)
 		if checkInReadme(dp) == False:
-			os.system('echo "* [{}]({})\n" >> README.md'.format(info['title'], info['url']))
+			os.system('echo "* [{}]({})" >> README.md'.format(info['title'], info['url']))
 			raw_input("Added: ")
 
 def checkInReadme(string):

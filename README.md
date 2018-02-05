@@ -30,4 +30,5 @@ A python program to quickly generate Alexa Quote skills
 * [Avril Lavigne Quotes](https://www.amazon.com/dp/B078MGP7Q1/)
 * [Marshawn Lynch Quotes](https://www.amazon.com/dp/B078NK2PK7/)
 * [Vin Diesel Quotes](https://www.amazon.com/dp/B078V5987Q/)
+* [Ben Shapiro Quotes](https://www.amazon.com/dp/B078TWY848/)
 
